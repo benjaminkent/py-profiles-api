@@ -1,0 +1,7 @@
+vagrant up - initially starts vagrant, do not need to do this every time
+vagrant ssh - connect to virtual box
+python -m venv ~/env - start py virtual environment and store files in env folder,
+  - don't need to do this every time
+source ~env/bin/activate - start virtual environment
+deactivate - stop virtual environment
+python manage.py runserver 0.0.0.0:8000 - start dev server on localhost:8000
